@@ -15,7 +15,7 @@
 
             stage('Test') {
                 steps {
-                    junit 'hello-app/pom.xml test'
+                    sh 'mvn -f hello-app/pom.xml test'
                 }
                 post {
                     always {
