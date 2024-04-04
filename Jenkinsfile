@@ -8,7 +8,7 @@
                 post {
                     success {
                         echo "Now Archiving Artifacts......"
-                        archiveArtifacts artifacts: '**/*.war'
+                        archiveArtifacts artifacts: '**/*.jar'
                     }
                 }
             }
